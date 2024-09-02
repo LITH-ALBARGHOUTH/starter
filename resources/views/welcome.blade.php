@@ -166,6 +166,9 @@
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </footer>
                 </div>
+                @if($name == 'Ali')
+                    <p>Yes I am Ali</p>
+                @endif
             </div>
         </div>
     </body>
