@@ -13,5 +13,6 @@ class SocialController extends Controller
 
     public function callback($service){
         return $user = Socialite::with($service)->user();
+        return response() -> json($user);
     }
 }
